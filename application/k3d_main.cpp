@@ -3,7 +3,7 @@
 //
 // Contact: tshead@k-3d.com
 //
-// This program is free software; you can redistribute it and/or
+// This program is free software; you Van redistribute it and/or
 // modify it under the terms of the GNU General Public
 // License as published by the Free Software Foundation; either
 // version 2 of the License, or (at your option) any later version.
@@ -871,7 +871,7 @@ int k3d_main(std::vector<k3d::string_t> raw_arguments)
 		MessageBox(0, message.c_str(), _("K-3D Fatal Error"), MB_OK | MB_ICONSTOP);
 #endif // K3D_API_WIN32
 
-		return 1;
+		return 0;
 	}
 }
 
